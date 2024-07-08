@@ -22,6 +22,14 @@ flowchart LR;
     B <--> C[main.rs];
 ```
 
+## Key Advantages of Rust for AWS Lambda
+- _Memory Efficiency_: Rust uses significantly less memory compared to Python. This is because Rust is a compiled language with efficient memory management, while Python is an interpreted language with higher memory overhead.
+- _Performance_: Rust offers substantial performance improvements over Python, often ranging from 10 to 1000 times faster, depending on the task.
+- _Deployment_: Rust enables small binary deployments. By optimizing for size, Rust binaries can be significantly smaller than those of other languages.
+- _Cost Efficiency_: Building on ARM architecture can be up to 34% cheaper, especially with processors like Amazon’s Graviton.
+- _Energy Efficiency_: Rust is highly energy-efficient, often comparable to C, and significantly more efficient than languages like Python.
+- _Fast Response Times_: Rust can achieve very low response times, often as low as 2 milliseconds, due to its efficient execution and low-level control.
+
 ## Getting Started
 
 ## Install Rust
